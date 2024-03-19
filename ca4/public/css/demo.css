@@ -17,6 +17,7 @@
     left: 0;
     background-color: #111;
     overflow-x: hidden;
+    margin-top: 45px;
   }
 
   /*make the active user text inherit style from container*/
@@ -45,6 +46,7 @@
   .content {
     margin-left: 200px;
     padding-left: 20px;
+    margin-top: 45px;
   }
 
   .nav-ul {
