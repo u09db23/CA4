@@ -6,18 +6,31 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  #chat-body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  }
+
+  .message_form__button {
+   border-radius: 10px;
+  }
+
+  .message_form__input{
+    border-radius: 10px;
+  }
   
   /* Style the side navigation */
   .sidenav {
     height: 100%;
-    width: 200px;
+    width: 149px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #023152;
     overflow-x: hidden;
-    margin-top: 45px;
+    margin-top: 46px;
   }
 
   /*make the active user text inherit style from container*/
@@ -31,7 +44,7 @@
   /* Side navigation links */
   .sidenav a {
     color: white;
-    padding: 16px;
+    padding: 18px;
     text-decoration: none;
     display: block;
   }
