@@ -13,16 +13,22 @@
   font-style: normal;
 }
 
-
-
   #chat-body {
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, #00d4ff 100%);
+  }
+
+
+  .outgoing__message {
+    color: rgb(252, 235, 3);
+  }
+
+  .incoming__message {
+    color: rgb(136, 252, 3)
   }
 
   .message_form__button {
    border-radius: 10px;
-   
   }
 
   .message_form__button:hover {
@@ -38,7 +44,10 @@
   }
 
   .message_form {
-   
+   padding: 25px;
+   position: absolute;
+   left: 150px;
+   height: 120px;
   }
   
   /* Style the side navigation */
@@ -48,7 +57,7 @@
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
+    left: 0px;
     background-color: #023152;
     overflow-x: hidden;
     margin-top: 46px;
