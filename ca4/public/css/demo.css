@@ -134,6 +134,58 @@
     background-color: #0398fc;
   }
 
+  #grid {
+    margin-top: 50px;
+  }
+
   #home-p1 {
     padding-top: 100px
   }
+
+  #home-img1 {
+    padding: 10px;
+    max-width:100%;
+    max-height:100%;
+  }
+
+  #home-img2 {
+    width: 500px;
+    max-width:100%;
+    max-height:100%;
+  }
+
+  #home-img3 {
+    width: 500px;
+    max-width:100%;
+    max-height:85%;
+  }
+
+  #home-img4 {
+    width: 500px;
+    max-width:100%;
+    max-height:85%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.frank-ruhl {
+  font-family: "Frank Ruhl Libre", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
