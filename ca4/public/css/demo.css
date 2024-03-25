@@ -170,37 +170,25 @@
     max-height:85%;
   }
 
-  #abdn-map {
-    float: right;
-    padding: 20px;
-    height: auto;
-    width: 45%;
-    text-align: right;
+  
+  .abdn-map {
+     padding-bottom: 50%;
+     position: relative;
+  }
+
+  .abdn-map iframe {
+      height: 75%;
+      width: 49%;
+      left: 1;
+      top: 0;
+      position: absolute;
+      z-index: -1;
   }
 
   #growing-up-p1 {
     float: left;
     width: 48%;
   }
-
-  #sub-heading
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .frank-ruhl {
   font-family: "Frank Ruhl Libre", serif;
