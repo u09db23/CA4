@@ -3,9 +3,13 @@
   }
   
   body {
-    padding-top: 30px;
+    padding-top: 70px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+  }
+
+  p {
+    padding: 10px
   }
 
   .yusei-magic-regular {
@@ -95,7 +99,7 @@
 
   .nav-ul {
   list-style-type: none;
-  margin: 0px;
+  margin-bottom: 0px;
   padding-bottom: 0px;
   overflow: hidden;
   background-color: #023152;
@@ -166,6 +170,21 @@
     max-height:85%;
   }
 
+  #abdn-map {
+    float: right;
+    padding: 20px;
+    height: auto;
+    width: 45%;
+    text-align: right;
+  }
+
+  #growing-up-p1 {
+    float: left;
+    width: 48%;
+  }
+
+  #sub-heading
+
 
 
 
@@ -189,3 +208,16 @@
   font-weight: 400;
   font-style: normal;
 }
+
+#about-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+#sub-heading {
+  padding: 10px;
+} 
+
+
+
