@@ -23,13 +23,34 @@
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, #00d4ff 100%);
   }
 
-
   .outgoing__message {
-    color: rgb(252, 235, 3);
+    color: rgb(0, 119, 255);
+    background-color:  rgba(255, 255, 255, 0.85);
+    border-radius: 25px;
+    padding-left: 25px;
+    border: 50px;
+    font-size: 18px;
+    font-weight: bold;
   }
 
   .incoming__message {
-    color: rgb(136, 252, 3)
+   color: rgb(89, 0, 255);
+    background-color:   rgba(255, 255, 255, 0.85);
+    border-radius: 25px;
+    padding-left: 25px;
+    border: 50px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .message__author {
+    color: rgb(7, 7, 7);
+    font-weight: normal;
+  }
+
+  .time_date {
+    color: black;
+    font-weight: normal;
   }
 
   .message_form__button {
@@ -117,7 +138,6 @@
     margin-left: -10px;
   } 
 
-
   .nav-li {
     float: left;
   }
@@ -172,7 +192,6 @@
     max-height:85%;
   }
 
-  
   .abdn-map {
      padding-bottom: 50%;
      position: relative;
