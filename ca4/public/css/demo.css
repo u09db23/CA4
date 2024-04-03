@@ -292,6 +292,20 @@
 }
 
 
+#papers-p {
+  float:
+}
+
+#jobs-img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
 
 
 
