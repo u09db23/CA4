@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    padding: 1px;
   }
   
   body {
@@ -144,9 +145,6 @@
     margin: 0;
   }
 
-  hr {
-  
-  }
 
   nav {
     margin: 0px;
@@ -259,6 +257,11 @@
   clear: both;
 }
 
+.row {
+  width: 100%;
+}
+
+
 #hobbies {
   margin-top: 50px;
 }
@@ -285,11 +288,14 @@
 .hobby p {
   font-size: 16px;
   line-height: 1.5;
+  text-align: center;
 }
 
 .hobby-name {
   text-align: center;
 }
+
+.hobbies-p
 
 
 #papers-p {
@@ -305,6 +311,11 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   object-fit: cover;
 }
+
+.education-img {
+  width: 100%;
+}
+
 
 
 
